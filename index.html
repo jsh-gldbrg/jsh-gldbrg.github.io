@@ -1,37 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Josh Goldberg Porfolio - Interactive Display Ads</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        ul {
-            list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-        }
-    a {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  color:black;
-  line-height: 30px;
-  text-decoration: none;
-}
+      body {
+        padding: 36px 36px 0px 36px;
+        background-color: black;
+        font-family: "Noto Sans", sans-serif;
+        color:white;
+      }
+
+      img {
+        width:14px; /* you can use % */
+        height: auto;
+        margin: 2px 18px 0px 0px;
+        display: inline-block;
+      }
+
+      hr{
+        border: none;
+        height:1px;
+        background-color: white;
+        width:20%;
+        margin:0 0;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin: 20px 0 20px 0;
+      }
+      a {
+        font-size: 18px;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 30px;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      a:visited{
+        color:white;
+      }
+
+      .name {
+        font-size: 42px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 44px;
+      }
+      .name-first {
+        margin-left: 5px;
+      }
+
+      .client{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .year {
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+      .category {
+        font-size: 24px;
+        font-weight: 300;
+        font-style: normal;
+        margin-bottom: 10px;
+        display:inline-block;
+
+      }
+      .category-container {
+        margin: 36px 0px 36px 0;
+      }
+
     </style>
-</head>
+  </head>
   <body>
-    <ul>
-        <li><a href="https://jsh-gldbrg.github.io/Dropbox/gallery/300x600/" class="rubik-menu">Dropbox</a></li>
-        <li><a href="https://jsh-gldbrg.github.io/Navdy/carousel/300x600/" class="rubik-menu">Navdy</a> </li>
-        <li><a href="https://jsh-gldbrg.github.io/Rackspace/robot/300x600" class="rubik-menu">Rackspace</a></li>
-        <li><a href="https://jsh-gldbrg.github.io/Ugg/productPicker/300x600" class="rubik-menu">Ugg</a></li>
+    <div>
+      <span class="name name-first">Josh<br/>Goldberg<br>Porfolio</span>
+    </div>
+    <div class="category-container">
+        <span class="category">Interactive Display Ads</span><br>
+        <span class="client">Various Clients</span><br>
+        <span class="year">Year: 2016</span>
+    </div>
+    <div>
+        <hr>
+      <ul>
+        <li>
+            
+          <a
+            href="https://jsh-gldbrg.github.io/Dropbox/gallery/300x600/"
+            class="rubik-menu"
+            ><img src="arrow-right.png"/>Dropbox</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://jsh-gldbrg.github.io/Navdy/carousel/300x600/"
+            class="rubik-menu"
+            ><img src="arrow-right.png"/>Navdy</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://jsh-gldbrg.github.io/Rackspace/robot/300x600/"
+            class="rubik-menu"
+            ><img src="arrow-right.png"/>Rackspace</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://jsh-gldbrg.github.io/Ugg/productPicker/300x600/"
+            class="rubik-menu"
+            ><img src="arrow-right.png"/>Ugg</a
+          >
+        </li>
       </ul>
+      <hr>
+    </div>
   </body>
 </html>
